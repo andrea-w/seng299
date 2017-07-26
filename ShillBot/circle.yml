@@ -7,3 +7,13 @@ test:
   override:
 
     - python -m unittest discover
+    
+    ' ' ' 
+    test:
+    override:
+        - py.test <optional path to subdir with tests>
+        ' ' '
+
+dependencies:
+    pre:
+       -  pip install pytest
