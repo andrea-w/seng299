@@ -13,7 +13,5 @@ test:
     override:
         - py.test <optional path to subdir with tests>
         ' ' '
-
-dependencies:
-    pre:
-       -  pip install pytest
+general:
+  build_dir: ShillBot
