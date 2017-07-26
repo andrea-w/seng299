@@ -7,11 +7,11 @@ test:
   override:
 
     - python -m unittest discover
+    - py.test seng299/ShillBot/tests
     
     ' ' ' 
     test:
     override:
         - py.test <optional path to subdir with tests>
         ' ' '
-general:
-  build_dir: ShillBot
+
